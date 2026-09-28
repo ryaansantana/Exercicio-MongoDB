@@ -63,41 +63,33 @@ OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
 
 ---
 
-Operadores lógicos MongoDB
+### Operadores lógicos MongoDB
 
 Operadores de predicados de query lógica:
 
 Operador & Descrição
-$eq
-
+*$eq
 Corresponde a valores iguais a um valor especificado.
 
-$gt
-
+*$gt
 Corresponde a valores superiores a um valor especificado.
 
-$gte
-
+*$gte
 Corresponde a valores maiores ou iguais a um valor especificado.
 
-$in
-
+*$in
 Corresponde a quaisquer valores especificados em uma array.
 
-$lt
-
+*$lt
 Corresponde a valores menores que um valor especificado.
 
-$lte
-
+*$lte
 Corresponde a valores menores ou iguais a um valor especificado.
 
-$ne
-
+*$ne
 Corresponde a todos os valores não iguais a um valor especificado.
 
-$nin
-
+*$nin
 Corresponde se o valor não for igual a qualquer um de uma determinada lista de valores.
 
 ---
