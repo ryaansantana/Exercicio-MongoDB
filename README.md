@@ -39,7 +39,7 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 | `MongoDB-Produtos` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 | `MongoDB-Livraria` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 
-### Operações trabalhadas
+### Operações Trabalhadas
 
 | Operação | Descrição | Comando principal |
 |----------|-----------|-------------------|
@@ -71,34 +71,22 @@ No MongoDB, as comparações são feitas com operadores que começam com `$`. El
 
 ---
 
-### Operadores lógicos MongoDB
+## Operadores de Consulta do MongoDB
 
-### Operadores de predicados de query lógica:
-Operador & Descrição
+### Operadores de Comparação
 
-*$eq - 
-Corresponde a valores iguais a um valor especificado.
+Comparam o valor de um campo com um valor (ou uma lista de valores) informado.
 
-*$gt -
-Corresponde a valores superiores a um valor especificado.
-
-*$gte -
-Corresponde a valores maiores ou iguais a um valor especificado.
-
-*$in -
-Corresponde a quaisquer valores especificados em uma array.
-
-*$lt -
-Corresponde a valores menores que um valor especificado.
-
-*$lte -
-Corresponde a valores menores ou iguais a um valor especificado.
-
-*$ne -
-Corresponde a todos os valores não iguais a um valor especificado.
-
-*$nin -
-Corresponde se o valor não for igual a qualquer um de uma determinada lista de valores.
+| Operador | Descrição                                                        |
+|:--------:|------------------------------------------------------------------|
+| `$eq`    | Valores **iguais** ao valor especificado                         |
+| `$ne`    | Valores **diferentes** do valor especificado                     |
+| `$gt`    | Valores **maiores** que o valor especificado                     |
+| `$gte`   | Valores **maiores ou iguais** ao valor especificado              |
+| `$lt`    | Valores **menores** que o valor especificado                     |
+| `$lte`   | Valores **menores ou iguais** ao valor especificado              |
+| `$in`    | Valores que correspondem a **qualquer um** dos itens de uma lista|
+| `$nin`   | Valores que **não** correspondem a nenhum item de uma lista      |
 
 ---
 
