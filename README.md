@@ -22,29 +22,11 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 | Arquivo                                | Descrição                                                              |
 | -------------------------------------- | ---------------------------------------------------------------------- |
-| `playground-1-Criando-db.mongodb.js`   | Criação e configuração do banco de dados e da coleção de alunos        |
-| `playground-2-Inserindo.mongodb.js`    | Inserção de documentos na coleção de alunos                            |
+| `playground-1-Criando-db.mongodb.js`   | Criação e configuração do banco de dados                               |
+| `playground-2-Inserindo.mongodb.js`    | Inserção de documentos                                                 |
 | `playground-3-Selecionando.mongodb.js` | Consultas e seleção de documentos utilizando filtros                   |
-| `playground-4-Atualizando.mongodb.js`  | Atualização de informações dos alunos utilizando comandos de alteração |
-| `playground-5-Excluindo.mongodb.js`    | Exclusão de documentos de alunos utilizando comandos de remoção        |
-
----
-
-## ⚠️ Novas Atualizações
-
-Foram adicionadas **duas novas atividades** ao repositório:
-
-* 📝 **Atualização de alunos:** atividade responsável por alterar informações dos documentos existentes na coleção, como nome, CPF e RG.
-* 🗑️ **Exclusão de alunos:** atividade responsável pela remoção de um aluno da coleção utilizando comandos de exclusão do MongoDB.
-
-Os novos arquivos são:
-
-```text
-playground-4-Atualizando.mongodb.js
-playground-5-Excluindo.mongodb.js
-```
-
-> **Atenção:** recomenda-se executar os playgrounds na ordem apresentada, principalmente quando estiver utilizando um banco de dados criado especificamente para as atividades.
+| `playground-4-Atualizando.mongodb.js`  | Atualização de informações utilizando comandos de alteração            |
+| `playground-5-Excluindo.mongodb.js`    | Exclusão e utilização de comandos de remoção                           |
 
 ---
 
@@ -52,9 +34,9 @@ playground-5-Excluindo.mongodb.js
 
 | Pasta                     | Descrição                                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `BD3-NoSQL-AtlasMongoDB/` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão de alunos |
-
-As atividades utilizam uma **coleção de alunos** como exemplo para demonstrar as principais operações do MongoDB.
+| `MongoDB-Alunos`   | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
+| `MongoDB-Empresa`  | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
+| `MongoDB-Produtos` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 
 ### Operações trabalhadas
 
@@ -64,10 +46,9 @@ As atividades utilizam uma **coleção de alunos** como exemplo para demonstrar 
 * Consultar documentos
 * Utilizar filtros nas consultas
 * Atualizar documentos
-* Alterar informações específicas de um aluno
+* Alterar informações específicas
 * Excluir documentos
 * Trabalhar com identificadores (`_id`)
-* Utilizar CPF e RG como critérios de busca
 
 ---
 
