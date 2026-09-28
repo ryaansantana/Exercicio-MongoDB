@@ -41,15 +41,18 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 ### Operações trabalhadas
 
-* Criar banco de dados
-* Criar collection
-* Inserir documentos
-* Consultar documentos
-* Utilizar filtros nas consultas
-* Atualizar documentos
-* Alterar informações específicas
-* Excluir documentos
-* Trabalhar com identificadores (`_id`)
+| Operação | Descrição | Comando principal |
+|----------|-----------|-------------------|
+| Criar banco de dados | Seleciona (e cria, se não existir) o banco `BD-EMPRESA` | `use()` |
+| Criar coleção | Cria a coleção `ESTOQUE` para armazenar os produtos | `db.createCollection()` |
+| Inserir documentos | Inclusão de um registro isolado ou de vários em lote | `insertOne()` / `insertMany()` |
+| Consultar documentos | Listagem de todos os registros da coleção | `find()` |
+| Utilizar filtros nas consultas | Busca por campo, operadores de comparação, expressões regulares e ordenação | `find({ filtro })`, `$gt`, `$lt`, `/regex/i`, `sort()` |
+| Ocultar/exibir campos | Controle dos campos retornados na consulta (projeção) | `find({}, { _id: 0 })` |
+| Atualizar documentos | Alteração de registros existentes | `updateOne()` / `updateMany()` |
+| Alterar informações específicas | Modificação de apenas alguns campos, sem substituir o documento inteiro | `$set` |
+| Excluir documentos | Remoção de registros da coleção | `deleteOne()` / `deleteMany()` |
+| Trabalhar com identificadores (`_id`) | Uso do `_id` gerado automaticamente pelo MongoDB para localizar documentos de forma única | `ObjectId()` |
 
 ### Descrição dos operadores relacionais ou de comparação no MongoDB
 
