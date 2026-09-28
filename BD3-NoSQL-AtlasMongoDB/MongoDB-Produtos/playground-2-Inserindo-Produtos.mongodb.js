@@ -4,7 +4,7 @@ const database = 'MongoDB-Produtos';
 /* HABILITA O BANCO DE DADOS PARA USO */
 use(database);
 
-/* INSERINDO 10 PRODUTOS COM DADOS VARIADOS (PREÇO ENTRE 100 E 1000 */
+/* INSERINDO 10 PRODUTOS COM DADOS VARIADOS (PREÇO ENTRE 100 E 1000) */
 db.Produtos.insertMany([
  { nome: "Mouse Gamer", categoria: "Periféricos", preco: 189.90, estoque: 45 },
  { nome: "Teclado Mecânico", categoria: "Periféricos", preco: 349.00, estoque: 30 },
