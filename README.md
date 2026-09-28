@@ -10,7 +10,7 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 ```text
 .
-└── BD3-NoSQL-AtlasMongoDB/
+└── MongoDB-Alunos / MongoDB-Empresa / MongoDB-Produtos
     ├── playground-1-Criando-db.mongodb.js
     ├── playground-2-Inserindo.mongodb.js
     ├── playground-3-Selecionando.mongodb.js
