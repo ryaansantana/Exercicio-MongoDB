@@ -65,9 +65,9 @@ OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
 
 ### Operadores lógicos MongoDB
 
-Operadores de predicados de query lógica:
-
+### Operadores de predicados de query lógica:
 Operador & Descrição
+
 *$eq
 Corresponde a valores iguais a um valor especificado.
 
