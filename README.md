@@ -10,7 +10,7 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 ```text
 .
-└── MongoDB-Alunos / MongoDB-Empresa / MongoDB-Produtos
+└── MongoDB-Alunos / MongoDB-Empresa / MongoDB-Produtos / MongoDB-Livraria
     ├── playground-1-Criando-db.mongodb.js
     ├── playground-2-Inserindo.mongodb.js
     ├── playground-3-Selecionando.mongodb.js
@@ -37,6 +37,7 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 | `MongoDB-Alunos`   | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 | `MongoDB-Empresa`  | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 | `MongoDB-Produtos` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
+| `MongoDB-Livraria` | Criação do banco e da collection, inserção de documentos, consultas, atualização e exclusão  |
 
 ### Operações trabalhadas
 
@@ -49,6 +50,55 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 * Alterar informações específicas
 * Excluir documentos
 * Trabalhar com identificadores (`_id`)
+
+### Descrição dos operadores relacionais ou de comparação no MongoDB
+
+OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
+* < - MENOR QUE -> lt (litle then)
+* > - MAIOR QUE -> gt (great then)
+* <= - MENOR OU IGUAL A  -> lte (litle then equal)
+* >= - MAIOR OU IGUAL A -> gte (great then equal)
+* == - IGUAL A -> eq (equal)
+* == - IGUAL A -> eq (equal)
+
+---
+
+Operadores lógicos MongoDB
+
+Operadores de predicados de query lógica:
+
+Operador & Descrição
+$eq
+
+Corresponde a valores iguais a um valor especificado.
+
+$gt
+
+Corresponde a valores superiores a um valor especificado.
+
+$gte
+
+Corresponde a valores maiores ou iguais a um valor especificado.
+
+$in
+
+Corresponde a quaisquer valores especificados em uma array.
+
+$lt
+
+Corresponde a valores menores que um valor especificado.
+
+$lte
+
+Corresponde a valores menores ou iguais a um valor especificado.
+
+$ne
+
+Corresponde a todos os valores não iguais a um valor especificado.
+
+$nin
+
+Corresponde se o valor não for igual a qualquer um de uma determinada lista de valores.
 
 ---
 
