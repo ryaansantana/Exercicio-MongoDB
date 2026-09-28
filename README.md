@@ -53,13 +53,18 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 ### Descrição dos operadores relacionais ou de comparação no MongoDB
 
-OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
-< - MENOR QUE -> lt (litle then)
-> - MAIOR QUE -> gt (great then)
-<= - MENOR OU IGUAL A  -> lte (litle then equal)
->= - MAIOR OU IGUAL A -> gte (great then equal)
-== - IGUAL A -> eq (equal)
-== - IGUAL A -> eq (equal)
+## Operadores Relacionais (de Comparação) no MongoDB
+
+No MongoDB, as comparações são feitas com operadores que começam com `$`. Eles são usados dentro do filtro do `find()`.
+
+| Símbolo | Significado      | Operador MongoDB | Origem do nome                  |
+|:-------:|------------------|:----------------:|---------------------------------|
+| `<`     | Menor que        | `$lt`            | **l**ess **t**han               |
+| `>`     | Maior que        | `$gt`            | **g**reater **t**han            |
+| `<=`    | Menor ou igual a | `$lte`           | **l**ess than or **e**qual to   |
+| `>=`    | Maior ou igual a | `$gte`           | **g**reater than or **e**qual to |
+| `==`    | Igual a          | `$eq`            | **eq**ual                       |
+| `!=`    | Diferente de     | `$ne`            | **n**ot **e**qual               |
 
 ---
 
