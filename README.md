@@ -43,8 +43,8 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 
 | Operação | Descrição | Comando principal |
 |----------|-----------|-------------------|
-| Criar banco de dados | Seleciona (e cria, se não existir) o banco `BD-EMPRESA` | `use()` |
-| Criar coleção | Cria a coleção `ESTOQUE` para armazenar os produtos | `db.createCollection()` |
+| Criar banco de dados | Seleciona (e cria, se não existir) o banco `MongoDB-Empresa` | `use()` |
+| Criar coleção | Cria a coleção `Estoque` para armazenar os produtos | `db.createCollection()` |
 | Inserir documentos | Inclusão de um registro isolado ou de vários em lote | `insertOne()` / `insertMany()` |
 | Consultar documentos | Listagem de todos os registros da coleção | `find()` |
 | Utilizar filtros nas consultas | Busca por campo, operadores de comparação, expressões regulares e ordenação | `find({ filtro })`, `$gt`, `$lt`, `/regex/i`, `sort()` |
