@@ -4,7 +4,6 @@ const database = 'BD-EMPRESA';
 /* HABILITA O BANCO DE DADOS PARA USO */
 use(database);
 
-
 /* FAZ UMA SELEÇÃO GERAL, SEM NENHUM CRITÉRIO */
 db.getCollection('ESTOQUE').find();
 
