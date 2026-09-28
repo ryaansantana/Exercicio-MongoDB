@@ -54,12 +54,12 @@ O repositório reúne exemplos práticos de criação de bancos de dados, inser�
 ### Descrição dos operadores relacionais ou de comparação no MongoDB
 
 OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
-* < - MENOR QUE -> lt (litle then)
-* > - MAIOR QUE -> gt (great then)
-* <= - MENOR OU IGUAL A  -> lte (litle then equal)
-* >= - MAIOR OU IGUAL A -> gte (great then equal)
-* == - IGUAL A -> eq (equal)
-* == - IGUAL A -> eq (equal)
+< - MENOR QUE -> lt (litle then)
+> - MAIOR QUE -> gt (great then)
+<= - MENOR OU IGUAL A  -> lte (litle then equal)
+>= - MAIOR OU IGUAL A -> gte (great then equal)
+== - IGUAL A -> eq (equal)
+== - IGUAL A -> eq (equal)
 
 ---
 
@@ -68,7 +68,7 @@ OPERADORES RELACIONAIS OU DE COMPARAÇÃO:
 ### Operadores de predicados de query lógica:
 Operador & Descrição
 
-*$eq
+*$eq - 
 Corresponde a valores iguais a um valor especificado.
 
 *$gt
